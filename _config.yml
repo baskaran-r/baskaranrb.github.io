@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://baskaranrb.github.io/
+baseurl: /
+title: Baskaran R
+author: Baskaran R
+description: Full stack developer
+avatar: profile.png
+email: gowthamforver.r@gmail.com
+github: baskaranrb # username
+twitter: rbaskaranpln
+linkedin: rbaskaranpln
+stackoverflow: users/1548575/baskaran   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+
+google_analytics:
+
+
+# needed for travis-ci build
+exclude: [vendor]
