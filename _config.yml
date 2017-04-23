@@ -3,7 +3,7 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-permalink: http://baskaranrb.github.io/:title.html
+permalink: :title.html
 paginate: 5
 gems: [jekyll-paginate]
 port: 3000
@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://baskaranrb.github.io/
-baseurl: /
+baseurl:
 title: Baskaran R
 author: Baskaran R
 description: Full stack developer
